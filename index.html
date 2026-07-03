@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K2 | Build Smarter Digital Solutions</title>
+  <meta name="description" content="K2 helps businesses and creators build clean, effective, and scalable digital experiences.">
+  <style>
+    :root {
+      --primary: #2563eb;
+      --dark: #111827;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --bg: #f9fafb;
+      --white: #ffffff;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Inter, system-ui, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    nav {
+      padding: 24px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: var(--dark);
+      text-decoration: none;
+    }
+    .logo span {
+      background: linear-gradient(135deg, #2563eb, #38bdf8);
+      color: white;
+      padding: 6px 12px;
+      border-radius: 12px;
+      margin-right: 8px;
+    }
+    .hero {
+      padding: 100px 0 80px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3.8rem;
+      line-height: 1.1;
+      color: var(--dark);
+      margin-bottom: 24px;
+    }
+    .hero p {
+      font-size: 1.3rem;
+      color: var(--muted);
+      max-width: 620px;
+      margin: 0 auto 40px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 16px 36px;
+      border-radius: 999px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .btn-primary {
+      background: var(--primary);
+      color: white;
+    }
+    .btn-primary:hover {
+      background: #1d4ed8;
+      transform: translateY(-2px);
+    }
+    .btn-secondary {
+      background: white;
+      color: var(--primary);
+      border: 2px solid #e5e7eb;
+      margin-left: 12px;
+    }
+    .services {
+      padding: 80px 0;
+    }
+    .services h2 {
+      text-align: center;
+      font-size: 2.4rem;
+      margin-bottom: 50px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+    .card {
+      background: white;
+      padding: 32px;
+      border-radius: 20px;
+      border: 1px solid #e5e7eb;
+    }
+    .card h3 {
+      margin-bottom: 12px;
+      color: var(--dark);
+    }
+    .cta {
+      background: var(--dark);
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+      border-radius: 24px;
+      margin: 60px 0;
+    }
+    .cta h2 {
+      font-size: 2.6rem;
+      margin-bottom: 16px;
+    }
+    .cta p {
+      color: #9ca3af;
+      margin-bottom: 32px;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 2.6rem; }
+      .hero p { font-size: 1.1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Navbar -->
+    <nav>
+      <a href="#" class="logo"><span>K2</span>K2</a>
+      <a href="#contact" class="btn btn-primary">Start a Project</a>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+      <h1>Build smarter<br>with K2</h1>
+      <p>K2 helps businesses, teams, and creators build clean, effective, and scalable digital experiences.</p>
+      
+      <div>
+        <a href="#contact" class="btn btn-primary">Start a Project</a>
+        <a href="#services" class="btn btn-secondary">See Services</a>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <h2>What K2 does</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Website Design</h3>
+          <p>Modern, responsive websites that look professional and work smoothly on every device.</p>
+        </div>
+        <div class="card">
+          <h3>Development</h3>
+          <p>Reliable digital solutions built with clean code and room to grow.</p>
+        </div>
+        <div class="card">
+          <h3>Digital Strategy</h3>
+          <p>Clear planning and guidance to turn your ideas into focused, realistic action.</p>
+        </div>
+        <div class="card">
+          <h3>Brand Experience</h3>
+          <p>Consistent visual and messaging systems that help your brand feel trustworthy.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" id="contact">
+      <div class="container">
+        <h2>Ready to build something better?</h2>
+        <p>Start your next digital project with K2 today.</p>
+        <a href="mailto:hello@k2.com" class="btn btn-primary">Email hello@k2.com</a>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 K2. All rights reserved.<br>
+      hello@k2.com
+    </footer>
+  </div>
+
+</body>
+</html>
